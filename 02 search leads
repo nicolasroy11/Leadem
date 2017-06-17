@@ -1,0 +1,843 @@
+<!--htmlDoc--->
+
+<!----- shit to do---->
+     <!---to do list ----> 
+    
+                        <!-- have to create a drop down in filter section-->
+
+
+
+<html>
+    
+  
+
+<head>
+
+    <link href="stylessearchleads.css"rel="stylesheet">
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+    
+    
+
+
+
+
+    
+    
+    
+    
+    
+    <title> </title>
+
+</head>
+
+<body>
+    
+    
+    
+    <!-----------this is the top bar section---------> 
+    
+    <div class="topBar">
+
+    <div class="nav">
+        <a href="" class="signOut">log out</a>
+
+    </div>
+        
+        
+    <div class="left-arrow-container"> 
+        
+        
+
+        <ul class="left-arrow">
+
+            <li> 
+               <a href="#" target="_blank"></a><img src="images/angle-pointing-to-left.svg" width="40%" height="40%">
+            </li>
+
+         </ul>
+            
+    </div>     
+
+</div>
+    
+    <!--Colapsing header-->
+    
+<main>
+        
+  <input class="this-guy" id="toggle" type="checkbox">
+        
+  <label for="toggle">
+        
+      <p id ="Search-filters">Search Filters</p>  
+      
+        </label>
+    
+    <!---form fields after expansion-->
+        
+  <div id="expand">
+    
+      <div class="form-one-lead-name">
+          
+          <div class="client-name">
+              
+              <p id="cleint-text">Client Name</p>
+                
+          </div> 
+          
+    <div class="emailContainer">
+        <div class="container-form">
+            <div class="form-input">
+                <input class="form-input" type="text" name="email" placeholder="Type Clients Name">
+            </div>    
+        </div>
+    </div> 
+          
+ </div>
+      
+      
+      <!------move in date------>
+      
+      <div class="green-line"></div>
+      
+      <div class="form-one-lead-name">
+          
+          <div class="client-name">
+              
+              <p id="cleint-text">Move in date</p>
+                
+          </div> 
+          
+            <div class="emailContainer">
+                <div class="container-form">
+                    <div class="form-input">
+                        <input class="form-input" type="text" name="email" placeholder="Select Move In Date">
+                    </div>    
+                </div>
+            </div> 
+              
+      </div>
+      
+        <div class="green-line"></div>
+      
+      
+      
+      <!------budget------>
+    
+      
+      <div class="form-one-lead-name">
+          
+          <div class="client-name">
+              
+              <p id="cleint-text">Max-Budget</p>
+                
+          </div> 
+          
+            <div class="emailContainer">
+                
+                <div class="max-budget">
+                
+
+                </div>
+                
+                <div class="container-form">                
+                    <div class="form-input-budget">
+                        <input class="form-input-budget" type="number" name="budget" placeholder="Client's Max Budget">
+                    </div>    
+                </div>
+            </div> 
+              
+      </div>
+      
+        <div class="green-line"></div>
+      
+      
+      <!------MAx-bedrooms------>
+    
+      
+      <div class="form-one-lead-name">
+          
+          <div class="client-name">
+              
+              <p id="cleint-text">Max-Bedrooms</p>
+                
+          </div> 
+          
+            <div class="emailContainer">
+                
+                <div class="max-budget">
+                
+                </div>
+                
+                <div class="container-form">                
+                    <div class="form-input-budget">
+                        <input class="form-input-budget" type="number" name="max-bedrooms" placeholder="Client's Max Bedroom">
+                    </div>    
+                </div>
+            </div> 
+              
+      </div>
+      
+        <div class="green-line"></div>
+      
+                            
+                                <!------Area------>
+      
+      <div class="form-one-lead-name">
+          
+          <div class="client-name">
+              
+              <p id="cleint-text">Select Neighborhoods</p>
+                
+          </div> 
+          
+            <div class="emailContainer">
+                
+                <div class="max-budget">
+                
+                </div>
+                
+                <div class="container-form">                
+                    <div class="form-input-budget">
+                        <input class="form-input-budget" type="number" name="max-bedrooms" placeholder="Neighborhoods">
+                    </div>    
+                </div>
+            </div> 
+              
+      </div>
+      
+        <div class="green-line"></div>
+      
+      
+  </div> 
+    
+    
+    
+    
+        
+  <section>   <!---- this is the names of leads section--->
+      
+      
+    
+            
+         <!--title letter-->    
+            
+<div class="letter-wrap">  
+    
+    <div class="section-a">
+        <p id="letter">A</p>   
+    </div>
+    
+</div>
+    
+         <!---lead name----------------------------------> 
+    
+    
+<div class="lead-name-wrap">   <!--copy and past this to creat new lead names/ sections-->
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Adam</p>   
+        </div>
+    <div class="underline"></div>
+
+</div> 
+    
+            <!--end part--------------------------------------------------------->
+    
+    
+    
+    
+        <!---lead name----------------------------------> 
+    
+<div class="lead-name-wrap">   
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Adam</p>   
+        </div>
+    <div class="underline"></div>
+
+</div> 
+    
+            <!--end part--------------------------------------------------------->
+    
+      <!---lead name---------------------------------->
+    
+<div class="lead-name-wrap">   
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Adam</p>   
+        </div>
+    
+   
+
+</div> 
+    
+    <!--end part-->
+    
+    
+    
+    <!--- B section ------------> 
+    
+    
+    
+            <!--title letter-->    
+            
+<div class="letter-wrap">  
+    
+    <div class="section-a">
+        <p id="letter">B</p>   
+    </div>
+    
+</div>
+    
+         <!---lead name----------------------------------> 
+    
+    
+<div class="lead-name-wrap">   <!--copy and past this to creat new lead names/ sections-->
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Baaaa</p>   
+        </div>
+    <div class="underline"></div>
+
+</div> 
+    
+            <!--end part--------------------------------------------------------->
+    
+    
+        <!---lead name----------------------------------> 
+    
+<div class="lead-name-wrap">   
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Baaa</p>   
+        </div>
+    <div class="underline"></div>
+
+</div> 
+    
+            <!--end part--------------------------------------------------------->
+    
+      <!---lead name---------------------------------->
+    
+<div class="lead-name-wrap">   
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Baaa</p>   
+        </div>
+    
+    
+
+</div> 
+    
+    <!--end part-->
+    
+    
+    <!--- C section ------------> 
+    
+    
+    
+    <div class="letter-wrap">  
+    
+    <div class="section-a">
+        <p id="letter">C</p>   
+    </div>
+    
+</div>
+    
+    <div class="lead-name-wrap">   <!--copy and past this to creat new lead names/ sections-->
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Caaaa</p>   
+        </div>
+    <div class="underline"></div>
+
+</div> 
+    <div class="lead-name-wrap">   <!--copy and past this to creat new lead names/ sections-->
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Caaaa</p>   
+        </div>
+    <div class="underline"></div>
+
+</div> 
+    <div class="lead-name-wrap">   <!--copy and past this to creat new lead names/ sections-->
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Caaaa</p>   
+        </div>
+    
+        
+
+</div> 
+    
+  
+    <!--end part-->
+    
+    
+    <!--- D section ------------> 
+    
+    
+    
+    <div class="letter-wrap">  
+    
+    <div class="section-a">
+        <p id="letter">D</p>   
+    </div>
+    
+</div>
+    
+    <div class="lead-name-wrap">   <!--copy and past this to creat new lead names/ sections-->
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Daaaa</p>   
+        </div>
+    <div class="underline"></div>
+
+</div> 
+    <div class="lead-name-wrap">   <!--copy and past this to creat new lead names/ sections-->
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Daaaa</p>   
+        </div>
+    <div class="underline"></div>
+
+</div> 
+    <div class="lead-name-wrap">   <!--copy and past this to creat new lead names/ sections-->
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Daaaa</p>   
+        </div>
+   
+        
+
+</div> 
+    
+  <!--end part-->
+    
+    
+    <!--- E section ------------> 
+    
+    
+    
+    <div class="letter-wrap">  
+    
+    <div class="section-a">
+        <p id="letter">E</p>   
+    </div>
+    
+</div>
+    
+    <div class="lead-name-wrap">   <!--copy and past this to creat new lead names/ sections-->
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Eaaaa</p>   
+        </div>
+    <div class="underline"></div>
+
+</div> 
+    <div class="lead-name-wrap">   <!--copy and past this to creat new lead names/ sections-->
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Eaaaa</p>   
+        </div>
+    <div class="underline"></div>
+
+</div> 
+    <div class="lead-name-wrap">   <!--copy and past this to creat new lead names/ sections-->
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Eaaaa</p>   
+        </div>
+ 
+        
+
+</div> 
+    
+    <!--end part-->
+    
+    
+    <!--- F section ------------> 
+    
+    
+    
+    <div class="letter-wrap">  
+    
+    <div class="section-a">
+        <p id="letter">F</p>   
+    </div>
+    
+</div>
+    
+    <div class="lead-name-wrap">   <!--copy and past this to creat new lead names/ sections-->
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Faaaa</p>   
+        </div>
+    <div class="underline"></div>
+
+</div> 
+      
+      <!--copy and past this to create new lead names/ sections-->
+      
+    <div class="lead-name-wrap">   
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Faaaa</p>   
+        </div>
+    <div class="underline"></div>
+
+</div> 
+    <div class="lead-name-wrap">   <!--copy and past this to creat new lead names/ sections-->
+    
+        <div class="lead-arnold-a">
+            <p id="lead-name">Faaaa</p>   
+        </div>
+   
+        
+
+</div> 
+      
+   
+      
+  </section>
+        
+</main>
+    
+            
+
+</body>
+
+</html>
+
+
+
+ body,html  {
+        background-color: white;
+        height: ;
+        width:  100%;
+        overflow: ;
+        margin: 0;
+        padding: 0; 
+        
+       
+    }
+
+
+
+/*this is the top menu bar section*/
+    
+.topBar {
+    height: 10%;
+    width: 100%;
+    background-color: #026670; 
+    box-sizing: border-box;
+    }
+
+ 
+#topBarMainMenu {
+    font-family: sans-serif;
+    font-size: 43px;
+    color: white;
+    line-height: 130px;
+    padding-left: 50px;
+    }
+
+.nav {
+    float: right;
+    list-style: none;
+}
+
+.signOut {
+    font-family: sans-serif;
+    font-size: 43px;
+    color: white;
+    text-decoration: none;
+    line-height: 130px;
+    padding-right: 50px;
+    
+}
+
+
+.left-arrow-container {
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box;
+    
+    
+}
+
+
+
+ul.left-arrow {
+    display: inline;
+   position:relative;
+    left: 20%;
+    line-height: 35px;
+    list-style-type: none;
+}
+    
+}
+
+
+
+/* this is the search filter bar section */
+
+
+
+
+
+.container {
+  max-width: 100%;
+    height: 100%;
+  margin: 0;
+}
+
+                                        
+
+
+
+
+
+
+
+/*
+*  
+**  
+********-------------------------------------------------**/
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+
+h2 {
+  text-align: center;
+}
+p {
+  font-size: 23px;
+}
+input {
+    
+}
+
+
+label {
+  display: block;
+  height: 7%;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 48px;
+    background-color: #FEF9C7;
+    
+    
+    
+     
+}
+
+
+#Search-filters {
+    
+    font-family: sans-serif;
+    font-size: 48px;
+    float: left;
+    color: #026670;
+    line-height: 50%;
+}
+
+label:hover {
+  color: #000;
+    
+    
+}
+label::before {                                 /* this is the cross + circle */
+  font-family: Consolas, monaco, monospace;
+  font-weight: bold;
+  font-size: 80px;
+  content: "+";
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  margin-right: 3px;
+  background:;
+  float: left;
+    color: #026670;
+    line-height: 155%;
+    
+   
+}
+#expand {
+  height: 0px;
+  overflow: hidden;
+  transition: height 0.8s;
+  background-color: white;
+  color: #026670;
+    width: 100%
+    
+    
+}
+
+
+section {
+  padding: 0 20px;
+    
+   
+}
+
+.this-guy {
+    display: none;
+    visibility: hidden;
+}
+
+#toggle:checked ~ #expand {
+    width: 100%;
+  height: 920px;
+    color: red;
+}
+#toggle:checked ~ label::before {
+  content: "-";
+    color: #026670;
+    
+}
+
+
+/*
+*  
+**
+********-------------------------------------------------**/
+
+
+
+
+
+
+
+
+
+
+
+/* input form section / search filter */
+
+.emailContainer {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    margin: none;
+    box-sizing: border-box;
+    
+}
+
+.container-form{
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    box-sizing: border-box;
+   
+}
+
+                                            /*  FORM INPUT TRING TO FIX */
+
+
+
+
+.form-input{
+    width: 500px;
+    height: 70px;
+    border: none;
+    margin-left: 50px;
+    font-size: 3rem;
+    outline: none;
+    
+    
+    
+}
+
+.form-input-budget {
+     width: 800px;
+    height: 70px;
+    border: none;
+    font-size: 3rem;
+    margin-left: 50px;
+    outline: none;
+    
+    
+    
+}
+
+                           
+
+.client-name {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    
+    margin: none;
+   
+}
+
+#cleint-text {
+
+font-family: sans-serif;
+    font-size: 48px;
+    color: #026670;
+    line-height: 100px;
+    padding-left: 50px;
+     margin: auto;
+}
+
+.green-line {
+    
+    width: 850px;
+    height: 5px;
+    background-color: #9FEDD7;
+}
+
+
+
+                                        /* this is the names off leads section */
+
+
+.section-a {
+    width: 100%;
+    height: 6%;
+    background-color: #9FEDD7;
+    
+    
+}
+
+#letter {
+    margin: 0;
+    padding: 0; 
+    font-family: sans-serif;
+    font-size: 43px;
+    line-height: 200%;
+    padding-left: 50px;
+    color: #026670;
+}
+
+.lead-arnold-a {
+    width: 85%;
+    height: 8%;
+    background-color: white;
+}
+
+#lead-name {
+     margin: 0;
+    padding: 0; 
+    font-family: sans-serif;
+    font-size: 43px;
+    line-height: 300%;
+    padding-left: 50px;
+    color: #026670;
+}
+
+.underline {
+    width: 100%;
+    height: .5%;
+    background-color: #9FEDD7;
+}
+
+.underline-white {
+    width: 70%;
+    height: .5%;
+    background-color: white;
+}
