@@ -1,0 +1,480 @@
+<!--htmlDoc--->
+
+<!----- shit to do---->
+     <!---to do list ----> 
+    
+                        <!-- have to create a drop down in filter section-->
+
+
+
+<html>
+    
+  
+
+<head>
+
+    <link href="stylessearchleads.css"rel="stylesheet">
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
+    
+    
+
+ <title> Page search/filter leads</title>
+
+</head>
+
+<body>
+    
+    
+    
+    <!-----------this is the top bar section---------> 
+    
+<div class="topBar">
+        <div class="nav">
+            <a href="" class="signOut">log out</a>
+        </div>    
+        <div class="left-arrow-container"> 
+            <ul class="left-arrow">
+                <li> 
+                   <a href="#" target="_blank"></a><img src="images/angle-pointing-to-left.svg" width="40%" height="40%">
+                </li>
+             </ul>     
+        </div>     
+</div>
+    
+    <!--Colapsing header-->
+    
+<main>
+        
+<input class="this-guy" id="toggle" type="checkbox" checked>
+        
+        <label for="toggle">
+        
+            <p id ="Search-filters">Search Filters</p>  
+      
+        </label>
+    
+<!---- after menu collapses-->
+    
+  <div id="expand">
+      <div class="form-one-lead-name">  
+          <div class="client-name">
+              <p id="cleint-text">Client Name</p>    
+          </div> 
+          <div class="emailContainer">
+                <div class="container-form">
+                    <div class="form-input">
+                        <input class="form-input" type="text" name="email" placeholder="Type Clients Name">
+                    </div>    
+                </div>
+           </div>      
+      </div>
+      
+      <div class="green-line"></div>
+      
+      
+      <!------move in date------>
+      
+      
+      
+<div class="form-one-lead-name"> 
+    <div class="client-name">
+         <p id="cleint-text">Move in date</p>   
+    </div> 
+    <div class="emailContainer">
+        <div class="container-form">
+            <div class="form-input">
+                <input class="form-input" type="text" name="email" placeholder="Select Move In Date">
+            </div>    
+        </div>
+    </div>        
+</div>
+      
+<div class="green-line"></div>
+      
+      
+      
+      <!------budget------>
+    
+      
+<div class="form-one-lead-name">
+    <div class="client-name">
+        <p id="cleint-text">Max-Budget</p>
+    </div>
+    <div class="emailContainer">
+        <div class="max-budget"></div>
+        <div class="container-form">
+            <div class="form-input-budget">
+                <input class="form-input-budget" type="number" name="budget" placeholder="Client's Max Budget">
+            </div>
+        </div>
+    </div>
+</div>
+      
+        <div class="green-line"></div>
+      
+      
+      <!------MAx-bedrooms------>
+    
+      
+<div class="form-one-lead-name">
+    <div class="client-name">
+        <p id="cleint-text">Max-Bedrooms</p>
+    </div>
+
+    <div class="emailContainer">
+        <div class="max-budget"></div>
+        <div class="container-form">
+            <div class="form-input-budget">
+                <input class="form-input-budget" type="number" name="max-bedrooms" placeholder="Client's Max Bedroom">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="green-line"></div>
+      
+                            
+                                <!------Area------>
+      
+    <!------------test-case-for-check-marks----------->
+      
+    <!--  
+      <div class="form-one-lead-name">
+    <div class="client-name">
+        <p id="cleint-text">Select Neighborhoods</p>
+    </div>
+    
+    <div class="emailContainer">
+        <div class="max-budget">
+        </div>
+        <div class="container-form">
+            <div class="form-input-budget">
+                <input class="form-input-budget" type="number" name="max-bedrooms" placeholder="Neighborhoods">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="green-line"></div>
+      
+-->
+      
+      
+      
+      
+    <!------------test-case-for-check-marks----------->  
+      
+      
+      
+      
+      
+      
+    
+ <div class="select-hoods-container">
+    <div class="client-name">
+        <p id="cleint-nieghborhood">Select Neighborhoods</p>
+    </div>
+     
+         
+        </div>
+     
+     
+
+        <div class="bedstuy">     
+            <div class="bedstuy-checkbox">
+                <input type="checkbox" value="Bed-Stuy" class="check-box">      
+                    <p class="text-check">Bed-stuy</p>                 
+            </div>      
+        </div>
+     
+     <div class="bedstuy">     
+            <div class="bedstuy-checkbox">
+                <input type="checkbox" value="Bed-Stuy" class="check-box">      
+                    <p class="text-check">Bed-stuy</p>                 
+            </div>      
+        </div>
+                
+                <input type="checkbox" value="Bushwick" class="check-box"> Bushwick
+     
+               <input type="checkbox" value="Bushwick" class="check-box"> Bushwick             
+                <br>
+                <input type="checkbox" value="Greenpoint" class="check-box"> Greenpoint
+                <input type="checkbox" value="Williamsburg" class="check-box"> Williamsburg
+            
+         
+
+
+
+
+</div> <!--expand guy end -->
+    
+    <!----end---->
+    
+    
+    <!--omg miso your such an asshole cat--> 
+    
+    
+    
+    <!---- this is the names of leads section--->
+        
+<section>                             
+            
+<div class="letter-wrap">  
+    <div class="section-a">
+        <p id="letter">A</p>   
+    </div> 
+</div>
+    
+          
+    
+<a href="#" class="adam" onclick="return false;">   
+    <div class="lead-name-wrap">   
+            <div class="lead-arnold-a">
+                <p id="lead-name">Adam</p>   
+            </div>
+        <div class="underline"></div>
+    </div> 
+</a>           
+       
+      
+<a href="#" class="adiren" onclick="return false;">    
+    <div class="lead-name-wrap">   
+            <div class="lead-arnold-a">
+                <p id="lead-name">Adrien</p>   
+            </div>
+        <div class="underline"></div>
+    </div> 
+</a>    
+      
+       
+<a href="#" class="alani" onclick="return false;">  
+    <div class="lead-name-wrap">     
+        <div class="lead-arnold-a">
+            <p id="lead-name">Alani</p>   
+        </div>
+    </div> 
+</a>    
+    <!--end part-->
+    
+    
+    
+    <!--- B section ------------> 
+       
+            
+<div class="letter-wrap">  
+    <div class="section-a">
+        <p id="letter">B</p>   
+    </div> 
+</div>
+    
+         
+    
+<a href="#" class="beatrice" onclick="return false;">       
+    <div class="lead-name-wrap">   
+            <div class="lead-arnold-a">
+                <p id="lead-name">Beatrice</p>   
+            </div>
+        <div class="underline"></div>
+    </div> 
+</a>    
+        
+    
+<a href="#" class="blaire" onclick="return false;"> 
+      <div class="lead-name-wrap">   
+            <div class="lead-arnold-a">
+                <p id="lead-name">Blaire</p>   
+            </div>
+        <div class="underline"></div>
+    </div> 
+</a>    
+    
+
+<a href="#" class="brooke" onclick="return false;"> 
+      <div class="lead-name-wrap">   
+        <div class="lead-arnold-a">
+            <p id="lead-name">Brooke</p>   
+        </div>
+    </div> 
+</a>  
+      
+    <!--end part-->
+    
+    
+    <!--- C section ------------> 
+    
+    
+<div class="letter-wrap">  
+    <div class="section-a">
+        <p id="letter">C</p>   
+    </div>
+</div>
+    
+      
+<a href="#" class="candice" onclick="return false;">       
+    <div class="lead-name-wrap">   
+            <div class="lead-arnold-a">
+                <p id="lead-name">Candice</p>   
+            </div>
+        <div class="underline"></div>
+    </div> 
+</a>       
+     
+      
+<a href="#" class="carter" onclick="return false;">    
+    <div class="lead-name-wrap">   
+            <div class="lead-arnold-a">
+                <p id="lead-name">Carter</p>   
+            </div>
+        <div class="underline"></div>
+    </div> 
+</a>   
+      
+      
+<a href="#" class="chad" onclick="return false;">    
+    <div class="lead-name-wrap">   
+        <div class="lead-arnold-a">
+            <p id="lead-name">Chad</p>   
+        </div>
+    </div> 
+</a>    
+  
+    <!--end part-->
+    
+    
+    <!--- D section ------------> 
+    
+    
+    
+<div class="letter-wrap">   
+    <div class="section-a">
+        <p id="letter">D</p>   
+    </div>  
+</div>
+      
+      
+<a href="#" class="dana" onclick="return false;">   
+    <div class="lead-name-wrap">   
+            <div class="lead-arnold-a">
+                <p id="lead-name">Dana</p>   
+            </div>
+        <div class="underline"></div>
+    </div> 
+</a>      
+      
+      
+<a href="#" class="dennis" onclick="return false;">    
+    <div class="lead-name-wrap">   
+            <div class="lead-arnold-a">
+                <p id="lead-name">Dennis</p>   
+            </div>
+        <div class="underline"></div>
+    </div> 
+</a>      
+      
+        
+<a href="#" class="dianna" onclick="return false;">     
+    <div class="lead-name-wrap">   
+        <div class="lead-arnold-a">
+            <p id="lead-name">Dianna</p>   
+        </div>
+    </div> 
+</a>    
+      
+      
+    <!--end part-->
+    
+    
+    <!--- E section ------------> 
+    
+    
+    
+<div class="letter-wrap">    
+    <div class="section-a">
+        <p id="letter">E</p>   
+    </div>
+</div>
+    
+      
+<a href="#" class="edison" onclick="return false;">   
+    <div class="lead-name-wrap">  
+            <div class="lead-arnold-a">
+                <p id="lead-name">Edison</p>   
+            </div>
+        <div class="underline"></div>
+    </div> 
+</a>
+      
+      
+<a href="#" class="eliot" onclick="return false;">    
+    <div class="lead-name-wrap">   
+            <div class="lead-arnold-a">
+                <p id="lead-name">Eliot</p>   
+            </div>
+        <div class="underline"></div>
+    </div> 
+</a>       
+      
+      
+<a href="#" class="eric" onclick="return false;">       
+    <div class="lead-name-wrap">   
+        <div class="lead-arnold-a">
+            <p id="lead-name">Eric</p>   
+        </div>
+    </div> 
+</a> 
+    <!--end part-->
+    
+    
+    <!--- F section ------------> 
+    
+    
+    
+<div class="letter-wrap">  
+    <div class="section-a">
+        <p id="letter">F</p>   
+    </div>  
+</div>
+    
+      
+<a href="#" class="francine" onclick="return false;">     
+    <div class="lead-name-wrap">   
+            <div class="lead-arnold-a">
+                <p id="lead-name">Francine</p>   
+            </div>
+        <div class="underline"></div>
+    </div> 
+</a>       
+     
+      
+<a href="#"  class="fredy" onclick="return false;">       
+      <div class="lead-name-wrap">   
+            <div class="lead-arnold-a">
+                <p id="lead-name">Fredy</p>   
+            </div>
+        <div class="underline"></div>
+    </div> 
+</a>     
+    
+      
+<a href="#" class="fynn" onclick="return false;">       
+    <div class="lead-name-wrap">   
+        <div class="lead-arnold-a">
+            <p id="lead-name">Fynn</p>   
+        </div>
+    </div> 
+</a>       
+   
+      
+  </section>
+        
+</main>
+    
+    
+    
+    
+            
+
+</body>
+
+</html>
